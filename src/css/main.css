@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+.lead {
+  font-size: 1.5rem;
+  line-height: 3rem; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.button {
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: all 0.8s; }
+  .button-light {
+    color: #dde5e7; }
+    .button-light:hover {
+      color: #dde5e7;
+      text-decoration: none; }
+  .button-dark {
+    color: #333333; }
+  .button-primary {
+    color: #d4674c; }
+  .button-secondary {
+    color: #67727e; }
+  .button:hover {
+    border-bottom-color: #d4674c;
+    background-color: rgba(221, 229, 231, 0.5);
+    text-decoration: none; }
+  .button:focus {
+    border-color: #d4674c;
+    background-color: rgba(221, 229, 231, 0.5);
+    outline: none; }
+
+.my {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.mx {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem; }
+
+.py {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+.px {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
+.pt {
+  padding-top: 1.5rem; }
+
+@media (max-width: 800px) {
+  .button {
+    display: block; }
+  #grid {
+    display: block; }
+  .main-container-graph {
+    margin: 1rem 0; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  display: block;
+  text-decoration: none; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+code {
+  font-family: "JetBrains Mono", monospace; }
+
+.welcome-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/2.jpg) no-repeat center center/cover;
+  height: 100vh; }
+
+.welcome-header-text {
+  font-size: 4rem;
+  text-align: center;
+  color: #dde5e7; }
+
+.welcome-header-p-text {
+  text-align: center;
+  color: #dde5e7; }
+
+.welcome-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem; }
+  .welcome-nav-container a {
+    color: #dde5e7;
+    border-right: 1px solid #dde5e7; }
+  .welcome-nav-container a:last-child {
+    color: #dde5e7;
+    border-right: none; }
+
+.about-header {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  background: url(../img/2.jpg) no-repeat 20% 30%/cover;
+  padding: 2rem; }
+  .about-header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .about-header-title h2 {
+    font-family: "Squada One", cursive;
+    font-size: 2rem;
+    color: #dde5e7; }
+
+.main-header {
+  padding: 3rem 0 1.5rem;
+  text-align: center; }
+  .main-header-title {
+    font-size: 3rem;
+    color: #d4674c; }
+  .main-header-sub {
+    color: #333333; }
+
+.main-container {
+  padding: 2.5rem 0 1rem; }
+  .main-container-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center; }
+  .main-container-progress, .main-container-graph {
+    padding: 0 2rem 1rem;
+    border-left: 1px solid #d4674c;
+    border-right: 1px solid #d4674c; }
+
+.search-container {
+  padding: 3rem 0 1rem;
+  text-align: center; }
+
+.search-form p {
+  color: #333333; }
+
+.search-form-label {
+  padding: 1rem 0 0;
+  font-size: 2rem;
+  color: #d4674c; }
+
+.search-form-input {
+  width: 100%;
+  display: block;
+  padding: 0.3rem 0.5rem; }
+
+.image-grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .image-grid img {
+    width: 100%;
+    height: 100%; }
+
+.footer-container {
+  background: url(../img/2.jpg) no-repeat 20% 30%/cover;
+  padding: 3rem; }
+  .footer-container-text {
+    text-align: center;
+    color: #dde5e7; }

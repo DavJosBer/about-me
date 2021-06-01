@@ -1,0 +1,15 @@
+@media (max-width: 800px){
+    .button{
+        display: block;
+    }
+    #grid{
+        display: block;
+    }
+    .main{
+        &-container{
+            &-graph{
+                margin: 1rem 0;
+            }
+        }
+    }
+}
